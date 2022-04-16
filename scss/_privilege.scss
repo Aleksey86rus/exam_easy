@@ -1,0 +1,58 @@
+.privilege {
+  &__container {
+  }
+
+  &__topic {
+    color: #ffadad;
+    margin-bottom: 2px;
+  }
+
+  &__subheading {
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    max-width: 666px;
+    padding-left: 2px;
+    margin-bottom: 25px;
+  }
+
+  &__style {
+    color: #ffadad;
+  }
+
+  &__list {
+    max-width: 650px;
+    // margin-left: 24px;
+    margin-left: auto;
+    // margin-right: 20px;
+  }
+  &__item {
+    font-size: 16px;
+    line-height: 131%;
+    letter-spacing: 0.001em;
+    color: #ffffff;
+
+    padding-left: 21px;
+    // margin-left: 39px;
+
+    position: relative;
+
+    margin-bottom: 18px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 6px;
+
+      width: 13px;
+      height: 13px;
+      background: url("./../image/Vector.svg") 0 0 / contain no-repeat;
+    }
+  }
+}

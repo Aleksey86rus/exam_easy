@@ -1,0 +1,137 @@
+.quality {
+  &__topic {
+  }
+
+  &__subheading {
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    margin-bottom: 18px;
+  }
+
+  &__image {
+    img {
+      width: 100%;
+      margin-bottom: 53px;
+      object-fit: cover;
+      height: 229px;
+    }
+  }
+
+  &__card {
+    max-width: 358px;
+    background: #fafafa;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+
+    margin: 0 auto;
+    padding: 22px 37px 29.8px;
+  }
+
+  .card {
+    &__title {
+      font-family: "New Rocker", cursive;
+      font-size: 24px;
+      line-height: 121%;
+      color: #2c2c2c;
+      text-align: center;
+
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      line-height: 162%;
+      color: #222222;
+
+      width: 198px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.form {
+  &__wrap-email {
+    max-width: 284px;
+    height: 39.6px;
+    margin-bottom: 14px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 12px;
+      left: 10px;
+
+      background: url("./../image/konvert.svg") 0 0 / contain no-repeat;
+      width: 21.5px;
+      height: 16.5px;
+    }
+  }
+
+  &__email {
+    background: #ffffff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 12px;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 12px;
+    line-height: 100%;
+    color: #222222;
+
+    &::placeholder {
+      color: #b9b9b9;
+    }
+  }
+
+  &__wrap-btn {
+    max-width: 284px;
+    height: 39.6px;
+  }
+
+  &__btn {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: #ffffff;
+
+    background: #56597a;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+
+    height: 100%;
+    width: 100%;
+
+    transition: background-color 2s ease, font-size 4s linear, color 5s ease;
+
+    &:hover {
+      background-color: lawngreen;
+      font-size: 20px;
+      color: coral;
+    }
+  }
+  &__btn-text {
+    display: inline-block;
+    position: relative;
+    padding-right: 38px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 1px;
+      right: 0px;
+
+      background: url("./../image/exit.svg") 0 0 / contain no-repeat;
+      width: 20.8px;
+      height: 20.5px;
+    }
+  }
+}

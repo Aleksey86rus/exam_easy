@@ -1,0 +1,49 @@
+/* --------- Обнуление стилей --------- */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+}
+
+:focus {
+    outline-offset: 2px;
+    // outline-color: #56597a;
+    outline-color: #56597a;
+}
+
+button {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+/* -------------------- end -------------------- */

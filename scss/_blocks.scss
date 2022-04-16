@@ -1,0 +1,42 @@
+.wrapper {
+  padding: 60px 0 0;
+}
+
+.container {
+  max-width: 703px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: content-box;
+}
+
+.topic {
+  font-weight: 275;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffadad;
+}
+
+.subheading {
+  font-family: "New Rocker", cursive;
+  font-size: 32px;
+  line-height: 119%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  line-height: 162.5%;
+  color: #ffffff;
+}
+
+.box {
+  max-width: 615px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: content-box;
+}

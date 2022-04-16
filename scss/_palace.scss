@@ -1,0 +1,49 @@
+.palace {
+  &__container {
+  }
+
+  &__topic {
+    color: #ffff99;
+    font-size: 30px;
+  }
+
+  &__header {
+    font-family: "New Rocker", cursive;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #ffffff;
+
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    line-height: 162%;
+    color: #ffffff;
+
+    max-width: 668px;
+    margin-bottom: 27px;
+  }
+
+  &__link {
+    text-decoration-line: underline;
+    color: #fddc83;
+    transition: all 0.3s ease 0s;
+    &:hover {
+      color: #ffadad;
+    }
+  }
+
+  &__image {
+    max-width: 585px;
+    margin: 0 auto;
+
+    img {
+      max-width: 100%;
+
+      border: 8px solid #ffffff;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 3px;
+    }
+  }
+}

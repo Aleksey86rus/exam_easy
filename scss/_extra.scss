@@ -1,0 +1,75 @@
+.extra {
+  &__topic {
+  }
+
+  &__subheading {
+    margin-bottom: 21px;
+  }
+
+  &__list {
+    max-width: 608px;
+    margin: 0 auto;
+  }
+
+  &__item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 112%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #97c8ff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+
+    padding-left: 47px;
+    position: relative;
+    margin-bottom: 25px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 1px;
+      left: 0;
+
+      background: url("./../image/box.svg") 0 0 / contain no-repeat;
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  &__item:nth-child(2) {
+    color: #fa7676;
+    text-shadow: 0px 4px 4px rgba(7, 7, 7, 0.8);
+
+    margin-bottom: 26px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 1px;
+      left: 0;
+
+      background: url("./../image/main.svg") 0 0 / contain no-repeat;
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  &__item:nth-child(3) {
+    color: #ccfcb6;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 1px;
+      left: 0;
+
+      background: url("./../image/dimond.svg") 0 0 / contain no-repeat;
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
